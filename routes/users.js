@@ -1,5 +1,5 @@
-var express = require('express');
-var router = express.Router();
+// var express = require('express');
+// var router = express.Router();
 
 // require mongoose
 const mongoose = require("mongoose");
@@ -15,20 +15,19 @@ mongoose.connect("mongodb://127.0.0.1:27017/practicekaro"); // Use the name of y
 const userschema = mongoose.Schema({
   username: String,
   name: String,
-  age: Number
-})
+  age: Number,
+});
 
 // Creating Models
 
 mongoose.model("userData", userschema);
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+// /* GET users listing. */
+// router.get('/', function(req, res, next) {
+//   res.send('respond with a resource');
+// });
 
 // Export Model
 module.exports = mongoose.model("user", userschema);
 
-
-module.exports = router;
+// module.exports = router;
