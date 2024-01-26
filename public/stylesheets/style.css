@@ -1,8 +1,128 @@
-body {
+/* body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
 }
 
-a {
-  color: #00B7FF;
+.hero-section {
+  background-color: #F9EBB2; /* Light yellow background */
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-text {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #333;
+}
+
+.hero-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #FF6F61; /* Coral color */
+}
+
+.hero-text p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #fff;
+  background-color: #3E4095; /* Dark blue button */
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #1E1F4A; /* Darker blue on hover */
+}
+
+/* Previous styles remain unchanged */
+
+.features-section {
+  background-color: #fff; /* White background */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.feature {
+  margin-bottom: 30px;
+}
+
+.feature h2 {
+  color: #FF6F61; /* Coral color */
+}
+
+.games-section {
+  background-color: #F9EBB2; /* Light yellow background */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.game {
+  margin-bottom: 40px;
+}
+
+.game img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-section {
+  background-color: #3E4095; /* Dark blue background */
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact-section h2 {
+  margin-bottom: 20px;
+}
+
+.contact-section form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-section label {
+  display: block;
+  margin-bottom: 10px;
+  color: #FF6F61; /* Coral color */
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #1E1F4A; /* Darker blue input background */
+  color: #fff;
+}
+
+.contact-section button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #fff;
+  background-color: #FF6F61; /* Coral button color */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-section button:hover {
+  background-color: #fff;
+  color: #FF6F61;
 }
